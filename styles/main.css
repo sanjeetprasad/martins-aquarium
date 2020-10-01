@@ -1,0 +1,52 @@
+@import "./fish.css";
+body {
+    background-image: url("background-img.png");
+}
+.header {
+    border: 1px solid blue;
+    padding: 20px;
+    background-color: burlywood;
+    font-size: 20px;
+    color: darkred;
+    text-align: center;
+}
+.list {
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    
+}
+.fish__list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.fishList.travel.tipsList {
+    border: 1px solid royalblue;
+}
+
+.main__container {
+    display: flex;
+}
+.travel {
+    font-size: 15px;
+    background-color: burlywood;
+    color: darkblue;
+}
+.tipsList {
+    border: 1px solid darkblue;
+    background-color: darkorange;
+}
+.container__left {
+    flex-basis: 3;
+}
+
+.container__right {
+    flex-basis: 1;
+}
