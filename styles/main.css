@@ -44,9 +44,9 @@ img {
     background-color: darkorange;
 }
 .container__left {
-    flex-basis: 3;
+    flex: 3;
 }
 
 .container__right {
-    flex-basis: 1;
+    flex: 1;
 }
