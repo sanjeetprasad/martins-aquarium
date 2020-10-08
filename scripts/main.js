@@ -1,4 +1,4 @@
-import { useFish } from './FishDataProvider.js'
-import { FishList } from './FishList.js'
+import { useFish } from './fish/FishDataProvider.js'
+import { FishList } from './fish/FishList.js'
 
 FishList()
