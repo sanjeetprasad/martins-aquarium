@@ -6,19 +6,19 @@
  */
 const fishCollection = [
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta1.webp",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 2.8,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta2.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 2.8,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
@@ -30,75 +30,75 @@ const fishCollection = [
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta4.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 2.8,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta5.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 8,
+        Llcation: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta6.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 9,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta7.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 2.8,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta8.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 2,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta9.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 2.8,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta10.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 8,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta11.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 6,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        name: "Memo",
         image: "./images/betta12.jpg",
-        Species: "Betta splendens",
-        Length: 2.8,
-        Location: "Animalia",
+        species: "Betta splendens",
+        length: 5,
+        location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
 

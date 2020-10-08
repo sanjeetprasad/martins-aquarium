@@ -1,52 +1,45 @@
-@import "./fish.css";
-body {
-    background-image: url("background-img.png");
+@import "./fishlist.css";
+
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 }
-.header {
-    border: 1px solid blue;
-    padding: 20px;
-    background-color: burlywood;
-    font-size: 20px;
-    color: darkred;
-    text-align: center;
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 3px;
 }
-.list {
-    font-size: 20px;
-    color: brown;
-    text-align: center;
+
+h1 {
+	text-align: center;
 }
 
 img {
-    height: 200px;
-    width: 200px;
-    
-}
-.fish__list {
-    display: flex;
-    flex-wrap: wrap;
-    
+	width: 100px;
 }
 
-.fishList.travel.tipsList {
-    border: 1px solid royalblue;
+.contentContainer {
+	display: flex;
+	
+	
 }
 
-.main__container {
-    display: flex;
-}
-.travel {
-    font-size: 15px;
-    background-color: burlywood;
-    color: darkblue;
-}
-.tipsList {
-    border: 1px solid darkblue;
-    background-color: darkorange;
-}
-.container__left {
-    flex: 3;
+.contentContainer__left {
+	flex: 3;
+	border: 1px solid black;
 }
 
-.container__right {
-    flex: 1;
+.contentContainer__right {
+	flex: 1;
 }
+
