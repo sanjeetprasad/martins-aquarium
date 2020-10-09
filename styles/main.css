@@ -43,5 +43,6 @@ img {
 
 .contentContainer__right {
 	flex: 1;
+	background-color: blanchedalmond;
 }
 
