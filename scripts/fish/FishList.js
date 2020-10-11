@@ -1,5 +1,5 @@
 import { Fish } from "./Fish.js"
-import { useFish, mostHolyFish, soldierFish } from "./FishDataProvider.js"
+import { useFish, mostHolyFish, soldierFish, nonHolyFish } from "./FishDataProvider.js"
 
 const builtFishCointainerHTML = (arrayOfFish) => {
 
@@ -32,6 +32,11 @@ export const FishList = () => {
     const soldierFishes = soldierFish()
     const soldierFishHTML = builtFishCointainerHTML(soldierFishes)
 
+    //Building HTML for non Holy fish
+
+    const nonHolyFishes = nonHolyFish()
+    const nonHolyFishHTML = builtFishCointainerHTML(nonHolyFishes)
+
     
     
 
@@ -41,6 +46,7 @@ export const FishList = () => {
     <div class="fishContainer">
      ${holyFishHTML}
      ${soldierFishHTML}
+     ${nonHolyFishHTML}
      </div>
      </section>
 `}
