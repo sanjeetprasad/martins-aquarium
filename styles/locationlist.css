@@ -1,0 +1,13 @@
+.locationContainer {
+    background-color: rgb(202, 173, 54);
+}
+.lList {
+    text-align: center;
+    background-color: cornsilk;
+    margin: 0;
+}
+
+.location__image {
+    width: 200px;
+
+}

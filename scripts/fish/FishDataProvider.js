@@ -6,10 +6,10 @@
  */
 const fishCollection = [
     {
-        name: "Memo",
+        name: "Nemo",
         image: "./images/betta1.webp",
         species: "Betta splendens",
-        length: 2.8,
+        length: 3,
         location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
@@ -17,44 +17,44 @@ const fishCollection = [
         name: "Memo",
         image: "./images/betta2.jpg",
         species: "Betta splendens",
-        length: 2.8,
+        length: 6,
         location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        Name: "Memo",
+        Name: "Dori",
         image: "./images/betta3.jpg",
         Species: "Betta splendens",
-        Length: 2.8,
+        Length: 12,
         Location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Nemo twin",
         image: "./images/betta4.jpg",
         species: "Betta splendens",
-        length: 2.8,
+        length: 5,
         location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Memo twin",
         image: "./images/betta5.jpg",
         species: "Betta splendens",
-        length: 8,
+        length: 25,
         Llcation: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Dori twin",
         image: "./images/betta6.jpg",
         species: "Betta splendens",
-        length: 9,
+        length: 15,
         location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Rose",
         image: "./images/betta7.jpg",
         species: "Betta splendens",
         length: 2.8,
@@ -62,7 +62,7 @@ const fishCollection = [
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Hope",
         image: "./images/betta8.jpg",
         species: "Betta splendens",
         length: 2,
@@ -70,15 +70,15 @@ const fishCollection = [
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Bang",
         image: "./images/betta9.jpg",
         species: "Betta splendens",
-        length: 2.8,
+        length: 9.1,
         location: "Animalia",
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Tang",
         image: "./images/betta10.jpg",
         species: "Betta splendens",
         length: 8,
@@ -86,7 +86,7 @@ const fishCollection = [
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Lang",
         image: "./images/betta11.jpg",
         species: "Betta splendens",
         length: 6,
@@ -94,7 +94,7 @@ const fishCollection = [
         food: "Mollusks, Worms, Insect, Larvae, other dead fish"
     },
     {
-        name: "Memo",
+        name: "Hang",
         image: "./images/betta12.jpg",
         species: "Betta splendens",
         length: 5,
@@ -106,3 +106,27 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
+
+export const mostHolyFish = () => {
+    // 3, 6, 9, 12, etc... fish
+    const holyFish = []
+
+    for (const fish of fishCollection) {
+        if ( fish.length % 3 === 0) {
+            holyFish.push(fish)
+        }
+
+    }
+
+    return holyFish
+}
+
+// export const soldierFish () => {
+//     // 5, 10, 15, 20, 25, etc... fish
+//     return soldiers
+// }
+
+// export const nonHolyFish () => {
+//     // Any fish not a multiple of 3 or 5
+//     return regularFish
+// }

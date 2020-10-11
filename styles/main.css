@@ -1,5 +1,6 @@
 @import "./fishlist.css";
 @import "./tiplist.css";
+@import "./locationlist.css";
 
 
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
@@ -23,7 +24,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
+	color: white;
 	text-align: center;
+	background-color: darkgreen;
+	margin: 0;
 }
 
 img {
